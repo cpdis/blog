@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            Hi!
 tagline:          'A Personal Website'
-description:      'Engineering the oceans.. Made by <a href="https://twitter.com/cpdis" target="_blank">@cpdis</a>.'
+description:      'Engineering the oceans. Made by <a href="https://twitter.com/cpdis" target="_blank">@cpdis</a>.'
 url:              http://cpdis.com
 baseurl:          /
 
@@ -16,10 +16,11 @@ author:
   name:           'Colin Dismuke'
   url:            https://twitter.com/cpdis
 
+gems:             [jekyll-paginate, jekyll-gist]
 paginate:         5
 
 # Custom vars
-version:          2.1.0
+version:          1.0.0
 
 github:
-  repo:           https://github.com/cpdis/blog
+  repo:           https://github.com/cpdis/

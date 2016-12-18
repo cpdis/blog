@@ -4,18 +4,17 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+title:            Hi!
+tagline:          'A Personal Website'
+description:      'Engineering the world's oceans.. Made by <a href="https://twitter.com/cpdis" target="_blank">@cpdis</a>.'
+url:              http://cpdis.com
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Colin Dismuke'
+  url:            https://twitter.com/cpdis
 
 paginate:         5
 

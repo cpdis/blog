@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            Hi!
 tagline:          'A Personal Website'
-description:      'Engineering the world's oceans.. Made by <a href="https://twitter.com/cpdis" target="_blank">@cpdis</a>.'
+description:      'Engineering the oceans.. Made by <a href="https://twitter.com/cpdis" target="_blank">@cpdis</a>.'
 url:              http://cpdis.com
 baseurl:          /
 

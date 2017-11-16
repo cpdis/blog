@@ -7,8 +7,8 @@ description: A blog about AI, cryptoassets, and running.
 
 # if it's an external image, update below for true
 # better with square images
-external-image: false
-picture: assets/images/profile.jpg
+external-image: true
+picture: https://s3.amazonaws.com/cpdis.com/assets/Profile_Cropped+(2017-06-21).jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -56,8 +56,8 @@ authors:
     cpdis:
         name: Colin Dismuke
         bio: Engineering the world's oceans.
-        external-image: false
-        picture: assets/images/profile.jpg
+        external-image: true
+        picture: https://s3.amazonaws.com/cpdis.com/assets/Profile_Cropped+(2017-06-21).jpg
         twitter: cpdis
 
 # do you want a larger site? change the option below

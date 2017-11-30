@@ -1,18 +1,18 @@
----
+—
 title: “Test”
 layout: post
-date: 2017-11-30 12:47:25 -0600
-image: /assets/images/
-headerImage: False
+date: 2017-11-30 12:47
+image: /assets/images/markdown.jpg
+headerImage: false
 tag:
 - test
 - github
 - working copy
-star: False
+star: false
 category: blog
 author: cpdis
-description:This is only a test.
----
+description: This is only a test.
+—
 
 # Testing
 ## Testing

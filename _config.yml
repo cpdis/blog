@@ -94,6 +94,8 @@ related: true
 # do you want some animations?
 animation: true
 
+encoding: UTF-8
+
 plugins:
   - jekyll-seo-tag
   - jekyll-gist

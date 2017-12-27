@@ -4,43 +4,16 @@ layout: page
 ---
 ![Profile Image]({{ site.picture }})
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+I'm Colin Dismuke.
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+This site started in 2018 as a passion project. Ostensibly it is a repository for experminets in machine learning and other projects but will likely extend to the far reaches of the Internet and beyond.
 
-<h2>Skills</h2>
+I'm an ocean engineer currently living in Houston, TX. You can find me [on Twitter](http://twitter.com/cpdis), [on Github](http://github.com/cpdis), [on AngeList](https://angel.co/colin-dismuke), and [on Instagram](https://www.instagram.com/cpdis/). 
 
-<ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>NodeJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
-</ul>
+I joined [Delmar Systems](http://www.delmarsystems.com/site.php) in 2012 as a member of the technical and engineering team. I've done a lot of engineering work and traveled all over the world designing and deploying mooring systems.
 
-<h2>Projects</h2>
+Before that, I spent six years at [Texas A&M](https://engineering.tamu.edu/ocean/) getting a few degrees.
 
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
+Want to chat? Feel free to [email me](mailto:colin.dismuke@gmail.com).
+
+

@@ -4,9 +4,7 @@ layout: page
 ---
 ![Profile Image]({{ site.picture }})
 
-I'm Colin Dismuke.
-
-This site started in 2018 as a passion project. Ostensibly it is a repository for experminets in machine learning and other projects but will likely extend to the far reaches of the Internet and beyond.
+I'm Colin Dismuke and this is my site. Ostensibly it is a repository for experiments in machine learning and other projects but will likely extend to the far reaches of the Internet and beyond.
 
 I'm an ocean engineer currently living in Houston, TX. You can find me [on Twitter](http://twitter.com/cpdis), [on Github](http://github.com/cpdis), [on AngeList](https://angel.co/colin-dismuke), and [on Instagram](https://www.instagram.com/cpdis/). 
 

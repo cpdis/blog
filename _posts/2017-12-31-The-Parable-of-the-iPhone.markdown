@@ -12,10 +12,10 @@ tag:
 star: True
 category: blog
 author: cpdis
-description:A parable for the modern age.
+description: A parable for the modern age.
 ---
 
-# The iPhone Parable 
+# The Parable of the iPhone
 
 A 15 year old girl was picking berries from a bush one day in ancient Rome. And so it happened right before her eyes that a strange and mysterious wormhole opened up and presented an iPhone 7 Plus. She gasped in shock at the incomprehensible sight that had materialized out of thin air right before her eyes. 
 

@@ -1,5 +1,5 @@
 ---
-title: “Parable of the iPhone”
+title: The Parable of the iPhone
 layout: post
 date: 2017-12-31 14:55:01 -0600
 image: /assets/images/
@@ -14,9 +14,6 @@ category: blog
 author: cpdis
 description: A parable for the modern age.
 ---
-
-# The Parable of the iPhone
-
 A 15 year old girl was picking berries from a bush one day in ancient Rome. And so it happened right before her eyes that a strange and mysterious wormhole opened up and presented an iPhone 7 Plus. She gasped in shock at the incomprehensible sight that had materialized out of thin air right before her eyes. 
 
 Was it a precious metal of some kind? Perhaps a gem or a stone. It didn't look like anything she had ever seen before. Could it be an exotic plant of some kind? A strange animal? Perhaps an extremely advanced tool. She reached her hand out to touch it. But then thought better of it. She better get her sister to take a look at it as well. 

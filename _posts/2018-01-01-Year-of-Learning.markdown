@@ -12,7 +12,7 @@ tag:
 star: True
 category: blog
 author: cpdis
-description:Details of my project to complete 52 weeks of machine learning projects.
+description: Details of my project to complete 52 weeks of machine learning projects.
 ---
 
 My goal this year, and with this project, is to read, replicate, and expand upon as many different papers, tutorials, and Github repositories as possible. Each week I plan on going through all the [links](https://github.com/cpdis/Experiments) and tabs I’ve collected over the months and posting whatever the results are here. In addition, I want to improve my writing skills and the only way to do that is by practice and repetition. Please forgive my writing the first few months, it will, it has to, get better. 

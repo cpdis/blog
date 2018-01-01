@@ -1,5 +1,5 @@
 ---
-title: Year of Learning
+title: A Year of Machine Learning, Neural Networks, and more
 layout: post
 date: 2018-01-01 14:38:50 -0600
 image: /assets/images/

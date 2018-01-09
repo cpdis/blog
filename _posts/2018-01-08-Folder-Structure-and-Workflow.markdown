@@ -5,13 +5,12 @@ date: 2018-01-08 22:00:18 -0600
 image: /assets/images/
 headerImage: False
 tag:
-— workflow
+- workflow
 - yearofml
-
 star: False
 category: blog
 author: cpdis
-description:Workflow and folder structure for working through papers and other projects.
+description: Workflow and folder structure for working through papers and other projects.
 ---
 
 There are two categories of projects that I’ve collected: ML papers and tutorials/working examples. For both of these I want a consistent workflow that allows me to present summaries in an quick and efficient manner and to reference in the future.

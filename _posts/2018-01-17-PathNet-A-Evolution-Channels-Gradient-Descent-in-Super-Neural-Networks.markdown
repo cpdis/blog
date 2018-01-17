@@ -1,5 +1,5 @@
 ---
-title: PathNet: Evolution Channels Gradient Descent in Super Neural Networks
+title: PathNet - Evolution Channels Gradient Descent in Super Neural Networks
 layout: post
 date: 2018-01-17 13:40:10 -0600
 image: /assets/images/

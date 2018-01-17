@@ -13,7 +13,7 @@ tag:
 star: False
 category: blog
 author: cpdis
-description:New deep learning architecture that combines modular deep learning, meta-learning, and reinforcement learning.
+description: New deep learning architecture that combines modular deep learning, meta-learning, and reinforcement learning.
 ---
 
 *Note: Inevitably, this past week was much more busy than planned. As such, I didn’t get to explore much more than the paper itself and the Github repository. I’d rather not do the minimum amount of work to achieve a goal but in this case it’s the best I can do.*

@@ -12,7 +12,7 @@ tag:
 star: False
 category: blog
 author: cpdis
-description:Discussing how I lost my Anaconda machine learning environment and discovery of FloyHub.
+description: Discussing how I lost my Anaconda machine learning environment and discovery of FloyHub.
 ---
 
 It turns out that at some point in the past few months the environment that I had setup for machine learning ([Tensorflow](https://www.tensorflow.org), [Keras](https://keras.io), [OpenCV](http://opencv-python-tutroals.readthedocs.io/en/latest/), etc.) was somehow lost in the ether. 

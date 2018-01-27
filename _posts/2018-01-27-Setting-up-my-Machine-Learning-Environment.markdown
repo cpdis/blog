@@ -13,7 +13,7 @@ tag:
 star: False
 category: blog
 author: cpdis
-description:Install Anaconda, setup a conda environment, and install the required packages for deep learning.
+description: Install Anaconda, setup a conda environment, and install the required packages for deep learning.
 ---
 
 As I mentioned in my last post, I unfortunately lost my machine learning environment that I had set up on my laptop. Fortunately, though, getting up and running with Python, Keras, and Tensorflow is quite easy. All of the individual packages that you might want to use for machine/deep learning can be downloaded, cloned, acquired individually but it seems like the standard (and easiest for beginners) method is to use a distribution like [Anaconda](https://www.continuum.io/downloads). 

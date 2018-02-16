@@ -13,7 +13,7 @@ tag:
 star: False
 category: blog
 author: cpdis
-description:Breaking a CAPTCHA in 15 minutes.
+description: Breaking a CAPTCHA in 15 minutes.
 ---
 
 # Breaking a CAPTCHA in 15 Minutes

@@ -1,4 +1,135 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://www.cpdis.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.cpdis.com/" rel="alternate" type="text/html" /><updated>2018-01-17T14:00:12-06:00</updated><id>https://www.cpdis.com/</id><title type="html">Colin Dismuke</title><subtitle>A blog about AI, cryptoassets, and running.</subtitle><entry><title type="html">PathNet - Evolution Channels Gradient Descent in Super Neural Networks</title><link href="https://www.cpdis.com/PathNet-A-Evolution-Channels-Gradient-Descent-in-Super-Neural-Networks/" rel="alternate" type="text/html" title="PathNet - Evolution Channels Gradient Descent in Super Neural Networks" /><published>2018-01-17T13:40:10-06:00</published><updated>2018-01-17T13:40:10-06:00</updated><id>https://www.cpdis.com/PathNet-A-Evolution-Channels-Gradient-Descent-in-Super-Neural-Networks</id><content type="html" xml:base="https://www.cpdis.com/PathNet-A-Evolution-Channels-Gradient-Descent-in-Super-Neural-Networks/">&lt;p&gt;&lt;em&gt;Note: Inevitably, this past week was much more busy than planned. As such, I didn’t get to explore much more than the paper itself and the Github repository. I’d rather not do the minimum amount of work to achieve a goal but in this case it’s the best I can do.&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://www.cpdis.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.cpdis.com/" rel="alternate" type="text/html" /><updated>2018-01-27T10:50:00-06:00</updated><id>https://www.cpdis.com/</id><title type="html">Colin Dismuke</title><subtitle>A blog about AI, cryptoassets, and running.</subtitle><entry><title type="html">Setting up my Machine Learning Environment</title><link href="https://www.cpdis.com/Setting-up-my-Machine-Learning-Environment/" rel="alternate" type="text/html" title="Setting up my Machine Learning Environment" /><published>2018-01-27T10:47:39-06:00</published><updated>2018-01-27T10:47:39-06:00</updated><id>https://www.cpdis.com/Setting-up-my-Machine-Learning-Environment</id><content type="html" xml:base="https://www.cpdis.com/Setting-up-my-Machine-Learning-Environment/">&lt;p&gt;As I mentioned in my last post, I unfortunately lost my machine learning environment that I had set up on my laptop. Fortunately, though, getting up and running with Python, Keras, and Tensorflow is quite easy. All of the individual packages that you might want to use for machine/deep learning can be downloaded, cloned, acquired individually but it seems like the standard (and easiest for beginners) method is to use a distribution like &lt;a href=&quot;https://www.continuum.io/downloads&quot;&gt;Anaconda&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Anaconda is a leading open data science platform that’s powered by Python. I’ll be using the open source version but there’s also an &lt;a href=&quot;https://www.anaconda.com/enterprise/&quot;&gt;enterprise&lt;/a&gt; distribution as well. The major benefit of using a distribution is that out of the box it includes over 100 (read &lt;em&gt;most&lt;/em&gt;) of the most popular Python and R packages for data science.&lt;/p&gt;
+
+&lt;h2 id=&quot;creating-a-conda-environment&quot;&gt;Creating a conda environment&lt;/h2&gt;
+&lt;p&gt;Also included with Anaconda is a versatile package manager call &lt;code class=&quot;highlighter-rouge&quot;&gt;conda&lt;/code&gt;. Like &lt;a href=&quot;https://brew.sh/&quot;&gt;Homebrew&lt;/a&gt;, it quickly installs, runs, and updates packages and their dependencies. You can also use it to search the package index, create new environments (the main point of this post), and install packages into existing environments.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;conda&lt;/code&gt; environments are collections of packages with specific versions that can be used to ensure the portability of Python code. This is useful when collaborating with someone or using two different versions of a package simultaneously. I created two machine learning environments, &lt;code class=&quot;highlighter-rouge&quot;&gt;ML2&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;ML3&lt;/code&gt;. Based off of Python 2.7.14 and 3.6.4, respectively. It only took a few simple steps to create both of these environments.&lt;/p&gt;
+
+&lt;p&gt;In Terminal type:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;conda create -n ML2 python=2.7.14 pandas scikit-learn jupyter matplotlib
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;and hit &lt;code class=&quot;highlighter-rouge&quot;&gt;Enter&lt;/code&gt;. When prompted, answer &lt;code class=&quot;highlighter-rouge&quot;&gt;y&lt;/code&gt; and you should see this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# To activate this environment, use:
+# &amp;gt; source activate ML2
+#
+# To deactivate this environment, use:
+# &amp;gt; source deactivate ML2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Activating the environment is as simple as typing:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;source activate ML2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You can see that the environment is activated because the name &lt;code class=&quot;highlighter-rouge&quot;&gt;(ML2)&lt;/code&gt; is prepended to your prompt.&lt;/p&gt;
+
+&lt;h2 id=&quot;install-tensorflow-and-keras&quot;&gt;Install Tensorflow and Keras&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.tensorflow.org/&quot;&gt;TensorFlow&lt;/a&gt; is an open source software library for numerical computation using data flow graphs. The way that it is built allows it to be used on one or more CPUs, GPUs, servers, or phones with a single API. It was originally developed by researchers and engineers on the Google Brain Team.&lt;/p&gt;
+
+&lt;p&gt;To install TensorFlow, make sure the environment you want to use is active, in this case &lt;code class=&quot;highlighter-rouge&quot;&gt;ML2&lt;/code&gt; and type:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pip install tensorflow
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The other super useful package is &lt;a href=&quot;https://keras.io/&quot;&gt;Keras&lt;/a&gt;, a high-level neural network specification implemented in Python that runs on top of TensorFlow. It makes creating a model much simpler than using TensorFlow which is paramount for fast experimentation.&lt;/p&gt;
+
+&lt;p&gt;To install Keras, make sure the environment you want to use is active, in this case &lt;code class=&quot;highlighter-rouge&quot;&gt;ML2&lt;/code&gt; and type:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pip install keras
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;test-it&quot;&gt;Test it!&lt;/h2&gt;
+
+&lt;p&gt;To make sure everything is running smoothly type:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ipython
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;which will bring up the iPython console and display:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Python 2.7.13 |Continuum Analytics, Inc.| (default, Dec 20 2016, 23:05:08) 
+Type &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
+
+IPython 5.3.0 -- An enhanced Interactive Python.
+?         -&amp;gt; Introduction and overview of IPython's features.
+%quickref -&amp;gt; Quick reference.
+help      -&amp;gt; Python's own help system.
+object?   -&amp;gt; Details about 'object', use 'object??' for extra details. details.
+
+In [1]:
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Import TensorFlow and Keras:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import tensorflow, keras
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;which should result in the following output:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Using TensorFlow backend.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;These aren’t the only tools that I’ll be using but they are a solid base. Distributions such as Anaconda and package managers like conda, pip, and homebrew make adding new tools extremely easy.&lt;/p&gt;</content><author><name>cpdis</name></author><category term="blog" /><category term="machine learning" /><category term="Anaconda" /><category term="tensorflow" /><category term="keras" /><category term="yearofML" /><summary type="html">As I mentioned in my last post, I unfortunately lost my machine learning environment that I had set up on my laptop. Fortunately, though, getting up and running with Python, Keras, and Tensorflow is quite easy. All of the individual packages that you might want to use for machine/deep learning can be downloaded, cloned, acquired individually but it seems like the standard (and easiest for beginners) method is to use a distribution like Anaconda.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.cpdis.com/assets/images/" /></entry><entry><title type="html">Lost Environment and FloyHub</title><link href="https://www.cpdis.com/Lost-Environment-and-FloydHub/" rel="alternate" type="text/html" title="Lost Environment and FloyHub" /><published>2018-01-24T15:32:35-06:00</published><updated>2018-01-24T15:32:35-06:00</updated><id>https://www.cpdis.com/Lost-Environment-and-FloydHub</id><content type="html" xml:base="https://www.cpdis.com/Lost-Environment-and-FloydHub/">&lt;p&gt;It turns out that at some point in the past few months the environment that I had setup for machine learning (&lt;a href=&quot;https://www.tensorflow.org&quot;&gt;Tensorflow&lt;/a&gt;, &lt;a href=&quot;https://keras.io&quot;&gt;Keras&lt;/a&gt;, &lt;a href=&quot;http://opencv-python-tutroals.readthedocs.io/en/latest/&quot;&gt;OpenCV&lt;/a&gt;, etc.) was somehow lost in the ether.&lt;/p&gt;
+
+&lt;p&gt;How could this happen you might ask? I used &lt;a href=&quot;https://www.anaconda.com&quot;&gt;Anaconda&lt;/a&gt; to manage the different environments I had (&lt;code class=&quot;highlighter-rouge&quot;&gt;source activate myenv&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;source deactivate myenv&lt;/code&gt;) and I recently did a clean install of Python to clear up some issues I was having with regard to &lt;a href=&quot;https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013&quot;&gt;Udacity’s Self Driving Car Nanodegree&lt;/a&gt;. Because of this, when I went to start on the project for this week, &lt;a href=&quot;https://medium.com/@ageitgey/how-to-break-a-captcha-system-in-15-minutes-with-machine-learning-dbebb035a710&quot;&gt;Breaking a CAPTCHA in 15 minutes&lt;/a&gt;, I realized that none of the packages I had previously installed were there. Not good. Fortunately, I like starting things from scratch and this gives me the opportunity to write a post about the way that I setup my environment.&lt;/p&gt;
+
+&lt;p&gt;While I was researching how different people have set up their machine learning environments I came across FloydHub. FloydHub is one of the newish class of platform-as-a-service (PaaS) services. They basically allow you to train and deploy deep learning models in the cloud with just a few commands and parameters on the command line. Most of the popular frameworks are available (&lt;code class=&quot;highlighter-rouge&quot;&gt;floyd run --env tensorflow&lt;/code&gt;) and a range of hardware is available at relatively affordable prices at per second rates.&lt;/p&gt;
+
+&lt;p&gt;One of the highlights of FloydHub (setting aside making the whole process almost frictionless) is the ability to create a Jupyter notebook for the project when you’re starting your model. Follow along and see how easy it is to get a model running:&lt;/p&gt;
+
+&lt;h3 id=&quot;1-create-a-floydhub-account&quot;&gt;1. Create a FloydHub account&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.floydhub.com/signup&quot;&gt;Sign up&lt;/a&gt; on FloydHub&lt;/li&gt;
+  &lt;li&gt;Install the floyd CLI on your local machine through these two &lt;a href=&quot;https://www.floydhub.com/welcome&quot;&gt;steps&lt;/a&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ pip install -U floyd-cli
+
+$ floyd login
+# Follow the instructions on your CLI
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Upon logging in, you will need to copy and paste a private key into the command line that authenticates your machine with the service. FloydHub provides a nice UX for copying that 🔑 during the account creation process—it’s the little things that make you like a product.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-clone-this-project-to-your-local-machine&quot;&gt;2. Clone this project to your local machine&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ cd /path/to/your-project-dir
+$ floyd clone experiments/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;3-create-your-project-version-on-floydhub&quot;&gt;3. Create your project version on FloydHub&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.floydhub.com/projects/create&quot;&gt;Create a project&lt;/a&gt; on FloydHub and then sync the cloned repository with your new project:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;$ floyd init your-project-name&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4-run-the-project-through-a-jupyter-notebook&quot;&gt;4. Run the project through a jupyter notebook&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;--env&lt;/code&gt; flag specifies the environment that this project should run on.&lt;/li&gt;
+  &lt;li&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;--data&lt;/code&gt; flag specifies the dataset that should be available in the &lt;code class=&quot;highlighter-rouge&quot;&gt;/data&lt;/code&gt; directory and the models should be available at the &lt;code class=&quot;highlighter-rouge&quot;&gt;/models&lt;/code&gt; directory&lt;/li&gt;
+  &lt;li&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;--mode&lt;/code&gt; flag specifies that the job should create a Jupyter notebook.&lt;/li&gt;
+  &lt;li&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;--gpu&lt;/code&gt; flag specifies whether the GPU should be used to accelerate the training process.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;floyd run \
+  --env tensorflow:py2 \
+  --data experiments/datasets/🐶/2:data \
+  --data experiments/datasets/🐶-models/1:models \
+  --mode jupyter \
+  --gpu
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Once the job is started, the jupyter notebook will open in your browser and you are ready to go!&lt;/p&gt;
+
+&lt;p&gt;The next post will be about setting up my machine learning environment followed by the project that I was tentatively supposed to be finished with a few days ago.&lt;/p&gt;</content><author><name>cpdis</name></author><category term="blog" /><category term="python" /><category term="anaconda" /><category term="floydhub" /><category term="yearofml" /><summary type="html">It turns out that at some point in the past few months the environment that I had setup for machine learning (Tensorflow, Keras, OpenCV, etc.) was somehow lost in the ether.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.cpdis.com/assets/images/" /></entry><entry><title type="html">PathNet - Evolution Channels Gradient Descent in Super Neural Networks</title><link href="https://www.cpdis.com/PathNet-A-Evolution-Channels-Gradient-Descent-in-Super-Neural-Networks/" rel="alternate" type="text/html" title="PathNet - Evolution Channels Gradient Descent in Super Neural Networks" /><published>2018-01-17T13:40:10-06:00</published><updated>2018-01-17T13:40:10-06:00</updated><id>https://www.cpdis.com/PathNet-A-Evolution-Channels-Gradient-Descent-in-Super-Neural-Networks</id><content type="html" xml:base="https://www.cpdis.com/PathNet-A-Evolution-Channels-Gradient-Descent-in-Super-Neural-Networks/">&lt;p&gt;&lt;em&gt;Note: Inevitably, this past week was much more busy than planned. As such, I didn’t get to explore much more than the paper itself and the Github repository. I’d rather not do the minimum amount of work to achieve a goal but in this case it’s the best I can do.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;I first came across PathNet in Azeem Azhar’s essential &lt;a href=&quot;https://www.getrevue.co/profile/azeem?utm_campaign=Issue&amp;amp;utm_content=forwarded&amp;amp;utm_medium=email&amp;amp;utm_source=Azeem+Azhar%3A+The+Exponential+View&quot;&gt;The Exponential View&lt;/a&gt; newsletter almost exactly a year ago. DeepMind was causing a stir in the AI community because PathNet was a plausible precursor to an architecture that could support artificial general intelligence (AGI). PathNet combines modular deep learning, meta-learning, and reinforcement learning and is summarized this way in the introduction to the &lt;a href=&quot;https://arxiv.org/abs/1701.08734&quot;&gt;paper&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -17,7 +148,7 @@
 
 &lt;p&gt;Moving on to the Atari games, the researchers found that PathNet was superior to fine-tuning. fine-tuning was performed by doing a hyperparameter sweep of learning rates and entropy costs while PathNet was investigated using a range of evaluation times, mutation rates, and tournament sizes. [I understand that it’s necessary to tune the model to achieve optimal results, however, if you must tune PathNet doesn’t that make it a little less viable as AGI?] An optimal combination of tournament size and mutation rate were found for PathNet that achieved rapid convergence and a speedup ratio of 1.33 versus 1.16 for fine-tuning. The figure below shows the results for the first 40 million steps of training for PathNet (blue), fine-tuning (green), and independent learning (red). The results for both PathNet and fine-tuning show the top five hyperparameter settings.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/Atari2/atari2.jpeg&quot; alt=&quot;Atari2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/16-01-18/atari2.jpeg&quot; alt=&quot;Atari2&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Finally, three labyrinth games were tested, &lt;code class=&quot;highlighter-rouge&quot;&gt;lt_chasm&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;seekavoid_arena&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;stairway_to_melon&lt;/code&gt;. All of the games are part of DeepMind’s &lt;a href=&quot;https://github.com/deepmind/lab&quot;&gt;DeepMind Lab&lt;/a&gt;. Again, a hyperparameter sweep was used for fine-tuning; mutation rates, module duplication rates, and tournament size were varied while learning rate, entropy cost, and evaluation time were fixed. PathNet learns the second task faster than fine tuning for transfer to &lt;code class=&quot;highlighter-rouge&quot;&gt;lt_chasm&lt;/code&gt; and transfer from &lt;code class=&quot;highlighter-rouge&quot;&gt;lt_chasm&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;seekavoid_arena&lt;/code&gt;. PathNet also performs better when learning &lt;code class=&quot;highlighter-rouge&quot;&gt;stairway_to_melon&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;seekavoid_arena&lt;/code&gt; from scratch. Interestingly, when transferring to &lt;code class=&quot;highlighter-rouge&quot;&gt;lt_chasm&lt;/code&gt;, both fine tuning and PathNet perform worse than independent learning. Speedup for PathNet is 1.26 versus 1.0 for fine-tuning (this is skewed by the good performance of transferring from &lt;code class=&quot;highlighter-rouge&quot;&gt;seekavoid_arena&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;stairway_to_melon&lt;/code&gt;). The figure below shows the mean of the five best training runes for PathNet compared with fine-tuning (the off diagonal plots) and independent learning (diagonal plots labeled from scratch). The results are more mixed than the previous examples, however, in most cases PathNet performs better than the control. especially when transferring from one game to another.&lt;/p&gt;
 

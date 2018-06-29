@@ -5,9 +5,9 @@ date: 2018-06-29 09:15:49 -0500
 image: /assets/images/
 headerImage: False
 tag:
--yearofML
--personal
--Lambda
+- yearofML
+- personal
+- Lambda
 star: True
 category: blog
 author: cpdis

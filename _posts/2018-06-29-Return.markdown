@@ -1,0 +1,38 @@
+---
+title: Return
+layout: post
+date: 2018-06-29 09:15:49 -0500
+image: /assets/images/
+headerImage: False
+tag:
+-yearofML
+-personal
+-Lambda
+star: True
+category: blog
+author: cpdis
+description:An explanation of where I've been, what I've been doing, and plans for the future.
+---
+
+It has become readily apparent to anyone following this blog that my year of machine learning experiments has been an unquestioned success.
+
+😂😭😂
+
+Obviously, that’s not true. After the first few weeks the whole project went off the rails and I never recovered. Looking back the idea was a little ambitious for a few reasons:
+1. I have two small children that are at the height of their dependence mom and dad.
+2. I have a job that sometimes requires me to travel, often to places with very slow internet, for a couple weeks at a time. 
+3. I have only a slightly better grasp of machine learning than a novice.
+The combination made it difficult to do anything meaningful over a short timespan (like a week or two).
+
+The bad news is that the #yearofML has come to an end after only a few experiments. The good news is that I decided I needed a more solid foundation before attempting something like #yearofML again.
+
+I’m doing two things to build that foundation:
+1. Attending [Lambda School](https://lambdaschool.com) part time for the next year or so.
+2. Working on small personal projects.
+
+The rationale behind Lambda School is the topic of a future post but suffice to say I really believe in their mission. 
+
+I think releasing personal projects in the 🌎 serves a different but complementary purpose. The best way to learn is by doing (something that figures very heavily into Lambda School), and the best way to get better is to let others see what you’ve done. That’s the whole premise of [Indie Hackers](https://www.indiehackers.com/). With tools like [Glitch](https://glitch.com/) it’s easier than ever to prototype an idea or remix someone else’s. I feel like I’m 5-10 years later to this party but, like with my [newsletter](https://ofnote.substack.com), the best time to start is today.
+
+I’m optimistic about where I’ll be a year from now and looking forward to the journey. Onward.
+

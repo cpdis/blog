@@ -11,7 +11,7 @@ tag:
 star: True
 category: blog
 author: cpdis
-description:An explanation of where I've been, what I've been doing, and plans for the future.
+description: An explanation of where I've been, what I've been doing, and plans for the future.
 ---
 
 It has become readily apparent to anyone following this blog that my year of machine learning experiments has been an unquestioned success.

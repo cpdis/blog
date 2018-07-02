@@ -112,4 +112,4 @@ It took just a few more minutes to setup the custom domain, change nameservers, 
 
 ## End
 
-Overall, I'm pretty satisfied with this first iteration. If you'd like to check it out, just go to https://password.coffee. And if you want to update an existing location or add a new one you can do that [here](https://passwordcoffee.typeform.com/to/tXXeRP).
+Overall, I'm pretty satisfied with this first iteration. If you'd like to check it out, just go to [https://password.coffee](https://password.coffee). And if you want to update an existing location or add a new one you can do that [here](https://passwordcoffee.typeform.com/to/tXXeRP).

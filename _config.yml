@@ -1,9 +1,9 @@
 # main text of home
 name: Colin Dismuke
-bio: I'm fascinated with machine learning and how to make computers smarter.
+bio: I'm fascinated with how to make computers smarter.
 
 # twitter summary info
-description: A blog about AI, cryptoassets, and running.
+description: A blog about side projects, programming, and more.
 
 # if it's an external image, update below for true
 # better with square images
@@ -47,7 +47,7 @@ github: cpdis
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-# medium: medium
+medium: cpdis
 # vimeo: myvimeo
 # lanyrd: mylanyrd
 email: colin.dismuke@gmail.com

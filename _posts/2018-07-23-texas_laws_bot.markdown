@@ -5,12 +5,15 @@ date: 2018-07-23 15:19:59 -0500
 image: /assets/images/
 headerImage: False
 tag:
-- 
+- Glitch
+- Twitter API
+- OpenStates
+- Uptime Robot
 star: False
 projects: true
 category: project
 author: cpdis
-description:Twitter bot that tweets out Texas legislation every 30 minutes.
+description: Twitter bot that tweets out Texas legislation every 30 minutes.
 ---
 
 ![Texas Laws](/assets/images/23-07-18/laws_texas.jpeg "Laws_Texas Twitter account")

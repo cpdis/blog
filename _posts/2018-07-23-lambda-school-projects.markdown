@@ -2,15 +2,16 @@
 title: Lambda School 🎒
 layout: post
 date: 2018-07-23 15:40:34 -0500
-image: /assets/images/
-headerImage: False
+image: /assets/images/23-07-18/lambda-school.png
+headerImage: True
 tag:
-- 
+- Lambda School
+- HTML/CSS
 star: True
 projects: true
 category: project
 author: cpdis
-description:Lambda School projects.
+description: Lambda School projects.
 ---
 
 Below you’ll find a growing list of projects that I’ve worked on and completed at Lambda School.

@@ -9,6 +9,7 @@ tag:
 - mapbox
 - netlify
 star: False
+projects: true
 category: project
 author: cpdis
 description: Project page for password.coffee

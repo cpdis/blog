@@ -1,4 +1,149 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://www.cpdis.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.cpdis.com/" rel="alternate" type="text/html" /><updated>2018-02-18T21:26:37-06:00</updated><id>https://www.cpdis.com/</id><title type="html">Colin Dismuke</title><subtitle>A blog about AI, cryptoassets, and running.</subtitle><entry><title type="html">Breaking a CAPTCHA in 15 Minutes</title><link href="https://www.cpdis.com/Breaking-a-CAPTCHA-in-15-Minutes/" rel="alternate" type="text/html" title="Breaking a CAPTCHA in 15 Minutes" /><published>2018-02-16T10:17:50-06:00</published><updated>2018-02-16T10:17:50-06:00</updated><id>https://www.cpdis.com/Breaking-a-CAPTCHA-in-15-Minutes</id><content type="html" xml:base="https://www.cpdis.com/Breaking-a-CAPTCHA-in-15-Minutes/">&lt;h1 id=&quot;breaking-a-captcha-in-15-minutes&quot;&gt;Breaking a CAPTCHA in 15 Minutes&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://www.cpdis.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.cpdis.com/" rel="alternate" type="text/html" /><updated>2018-07-23T14:55:40-05:00</updated><id>https://www.cpdis.com/</id><title type="html">Colin Dismuke</title><subtitle>A blog about side projects, programming, and more.</subtitle><entry><title type="html">password.coffee ☕️</title><link href="https://www.cpdis.com/password_coffee_project/" rel="alternate" type="text/html" title="password.coffee ☕️" /><published>2018-07-23T14:44:32-05:00</published><updated>2018-07-23T14:44:32-05:00</updated><id>https://www.cpdis.com/password_coffee_project</id><content type="html" xml:base="https://www.cpdis.com/password_coffee_project/">&lt;p&gt;&lt;img src=&quot;/assets/images/23-07-18/password_coffee.jpeg&quot; alt=&quot;password.coffee&quot; title=&quot;password.coffee website screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://password.coffee/&quot;&gt;password.coffee&lt;/a&gt; is a single-page website that serves as a repository of WiFi details for coffee shops and other cafes.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;How this site was built:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://domains.google/&quot;&gt;Google Domains&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://glitch.com/&quot;&gt;Glitch&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mapbox.com/&quot;&gt;Mapbox&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.netlify.com/&quot;&gt;Netlify&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;HTML/CSS&lt;/li&gt;
+  &lt;li&gt;JavaScript&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Links:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://password.coffee/&quot;&gt;password.coffee&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.indiehackers.com/product/password-coffee&quot;&gt;Indie Hackers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>cpdis</name></author><category term="project" /><category term="glitch" /><category term="mapbox" /><category term="netlify" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.cpdis.com/assets/images/" /></entry><entry><title type="html">password.coffee ☕</title><link href="https://www.cpdis.com/password-coffee/" rel="alternate" type="text/html" title="password.coffee ☕" /><published>2018-07-02T11:00:00-05:00</published><updated>2018-07-02T11:00:00-05:00</updated><id>https://www.cpdis.com/password-coffee</id><content type="html" xml:base="https://www.cpdis.com/password-coffee/">&lt;p&gt;I had a problem. I would go to a coffee shop, maybe &lt;a href=&quot;https://www.blacksmithhouston.com/&quot;&gt;Blacksmith&lt;/a&gt; or &lt;a href=&quot;https://www.instagram.com/morningstarhou/?hl=en&quot;&gt;Morningstar&lt;/a&gt;, sit down, and realize that somehow I did not have the WiFi password. As I discreetly looked around for the username and password I’d inevitably come to the conclusion that I should just ask the barista as I picked up my drink. Social interaction isn’t the worst thing in the world but it usually results in a finger pointing to a sign, in plain view, that I had somehow missed.&lt;/p&gt;
+
+&lt;p&gt;In order to avoid the situation described above I could just keep a running list of places I’ve visited with their associated WiFi networks and passwords. Or I could scour Foursquare for the comment with the password in it (probably from two years ago). Or I could build a single page website with a nice little 🗺 that holds all the information I need.&lt;/p&gt;
+
+&lt;h2 id=&quot;glitch&quot;&gt;Glitch&lt;/h2&gt;
+
+&lt;p&gt;Glitch was announced back in the December 2016. &lt;a href=&quot;https://anildash.com/&quot;&gt;Anil Dash&lt;/a&gt; (who at the time had just become CEO of &lt;a href=&quot;http://www.fogcreek.com/&quot;&gt;Fog Creek&lt;/a&gt;) describes it best:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Many geeks of my cohort came of age building things on the desktop using HyperCard or Visual Basic, or by using View Source in their browser to tweak HTML pages that they uploaded to Geocities. The web’s gotten a lot more mature and a lot more powerful, but the immediacy of that kind of creation has been lost. Today, even if you’re a skilled developer, the starting point you’re working from is usually a pile of unassembled parts.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Glitch lets you start from a working app (or bot, or site, or whatever) and then remix it into exactly the app of your dreams.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It’s an excellent place to take someone else’s template and modify it or host a prototype of an idea you have.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/30-06-18/glitch_website.jpeg&quot; alt=&quot;Glitch homepage&quot; title=&quot;Glitch homepage&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I chose to remix an existing template that was setup to use &lt;a href=&quot;https://github.com/evanplaice/jquery-csv&quot;&gt;jquery-csv&lt;/a&gt; and a simple &lt;a href=&quot;https://www.mapbox.com/&quot;&gt;Mapbox&lt;/a&gt; map.&lt;/p&gt;
+
+&lt;p&gt;I added some text, modified the CSS a little, adjusted the size of the map on the page, added extra JavaScript from Mapbox for additional functionality, and populated the map with a decent initial cohort of coffee shops.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/30-06-18/glitch_detail.jpeg&quot; alt=&quot;Glitch detail&quot; title=&quot;Glitch detail&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;At each step, Glitch automatically updates your site (&lt;code class=&quot;highlighter-rouge&quot;&gt;insert-whimsical-name.glitch.me&lt;/code&gt;) so you can see what you’re changing in real-time. This removes the headache of setting up a local testing environment and allows you to just build something 💯&lt;/p&gt;
+
+&lt;h2 id=&quot;mapbox&quot;&gt;Mapbox&lt;/h2&gt;
+
+&lt;p&gt;I’ve always been impressed with Mapbox. Like with most of the top-tier internet companies started in the last decade, they’ve taken something would be very difficult for individual developers to implement over and over and simplified it down to a few short code snippets on a web site. In addition, &lt;a href=&quot;https://www.mapbox.com/mapbox-studio/&quot;&gt;Mapbox Studio&lt;/a&gt; allows anyone to infinitely customize their maps.&lt;/p&gt;
+
+&lt;p&gt;I experimented with several different map styles but ultimately returned to the standard Streets style. It looks most similar to the Google and Apple Maps style and the usability is 👌🏼.&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// Details on the Mapbox API here: https://www.mapbox.com/mapbox-gl-js/api/#map&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;map&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;mapboxgl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;container&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'map'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'mapbox://styles/mapbox/streets-v9'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;zoom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;13&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I wanted zoom controls to overlay the map. Zooming in and out of a map on a mobile webpage is sometimes a little difficult and controls alleviate this slightly.&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// Add zoom and rotation controls to the map.&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nav&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;mapboxgl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;NavigationControl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In case the map is not automatically centered on the user, a geolocation button was also added.&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'load'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;updateGeocoderProximity&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// set proximity on map load&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'moveend'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;updateGeocoderProximity&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// and then update proximity each time the map moves&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;updateGeocoderProximity&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// proximity is designed for local scale, if the user is looking at the whole world,&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// it doesn't make sense to factor in the arbitrary centre of the map&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getZoom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;center&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getCenter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;wrap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// ensures the longitude falls within -180 to 180 as the Geocoding API doesn't accept values outside this range&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;geocoder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setProximity&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;longitude&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;center&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lng&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;latitude&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;center&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lat&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;geocoder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setProximity&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Add geolocate control to the map.&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;geo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;mapboxgl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;GeolocateControl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;positionOptions&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;enableHighAccuracy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;trackUserLocation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Finally, I added a search box because I would expect that on any map that I’m viewing. In the future I would like to add driving or walking directions from the current user location ☑️&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// Add search box&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;geocoder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;MapboxGeocoder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+   &lt;span class=&quot;na&quot;&gt;accessToken&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;mapboxgl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;accessToken&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;netlify&quot;&gt;Netlify&lt;/h2&gt;
+
+&lt;p&gt;I bought the &lt;a href=&quot;https://password.coffee&quot;&gt;password.coffee&lt;/a&gt; domain on &lt;a href=&quot;https://domains.google&quot;&gt;Google Domains&lt;/a&gt; early on and knew that I wanted to eventually move off of Glitch. I briefly considered hosting on &lt;a href=&quot;https://linode.com&quot;&gt;Linode&lt;/a&gt; but decided the easiest route was using Github as the server. It’s relatively simple to set up a custom domain using Github Pages but there are always a few quirks.&lt;/p&gt;
+
+&lt;p&gt;I don’t know when I first came across &lt;a href=&quot;https://www.netlify.com/&quot;&gt;Netlify&lt;/a&gt; but for whatever reason I came back to it for this. It was far better, faster, and easier than I remembered. Provided you have all the necessary files to build a functioning website, the process of setting up continuous deployment takes under a minute. Really incredible for a site hosted on GitHub, Gitlab, or Bitbucket.&lt;/p&gt;
+
+&lt;p&gt;It takes three screens to get set up. You connect your Github (in my case) account and choose the correct &lt;a href=&quot;https://github.com/cpdis/password-coffee&quot;&gt;repository&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/30-06-18/new_site_netlify.jpeg&quot; alt=&quot;Choose repository for site&quot; title=&quot;Create a new site on Netlify&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then you select any build options, like &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll build&lt;/code&gt; for Jekyll, and click &lt;em&gt;Deploy Site&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/30-06-18/deploy_site_setup_netlify.jpeg&quot; alt=&quot;Deploy site &quot; title=&quot;Deploy site using Netlify&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It took just a few more minutes to setup the custom domain, change nameservers, and enable HTTPS by default. Most of that time was waiting for DNS to propogate.&lt;/p&gt;
+
+&lt;h2 id=&quot;end&quot;&gt;End&lt;/h2&gt;
+
+&lt;p&gt;Overall, I’m pretty satisfied with this first iteration. If you’d like to check it out, just go to &lt;a href=&quot;https://password.coffee&quot;&gt;https://password.coffee&lt;/a&gt;. And if you want to update an existing location or add a new one you can do that &lt;a href=&quot;https://passwordcoffee.typeform.com/to/tXXeRP&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name>cpdis</name></author><category term="blog" /><category term="Glitch" /><category term="Mapbox" /><category term="Netlify" /><summary type="html">I had a problem. I would go to a coffee shop, maybe Blacksmith or Morningstar, sit down, and realize that somehow I did not have the WiFi password. As I discreetly looked around for the username and password I’d inevitably come to the conclusion that I should just ask the barista as I picked up my drink. Social interaction isn’t the worst thing in the world but it usually results in a finger pointing to a sign, in plain view, that I had somehow missed.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.cpdis.com/assets/images/" /></entry><entry><title type="html">Return</title><link href="https://www.cpdis.com/Return/" rel="alternate" type="text/html" title="Return" /><published>2018-06-29T09:15:49-05:00</published><updated>2018-06-29T09:15:49-05:00</updated><id>https://www.cpdis.com/Return</id><content type="html" xml:base="https://www.cpdis.com/Return/">&lt;p&gt;It has become readily apparent to anyone following this blog that my year of machine learning experiments has been an unquestioned success.&lt;/p&gt;
+
+&lt;p&gt;😂😭😂&lt;/p&gt;
+
+&lt;p&gt;Obviously, that’s not true. After the first few weeks the whole project went off the rails and I never recovered. Looking back the idea was a little ambitious for a few reasons:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;I have two small children that are at the height of their dependence mom and dad.&lt;/li&gt;
+  &lt;li&gt;I have a job that sometimes requires me to travel, often to places with very slow internet, for a couple weeks at a time.&lt;/li&gt;
+  &lt;li&gt;I have only a slightly better grasp of machine learning than a novice.
+The combination made it difficult to do anything meaningful over a short timespan (like a week or two).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The bad news is that the #yearofML has come to an end after only a few experiments. The good news is that I decided I needed a more solid foundation before attempting something like #yearofML again.&lt;/p&gt;
+
+&lt;p&gt;I’m doing two things to build that foundation:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Attending &lt;a href=&quot;https://lambdaschool.com&quot;&gt;Lambda School&lt;/a&gt; part time for the next year or so.&lt;/li&gt;
+  &lt;li&gt;Working on small personal projects.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The rationale behind Lambda School is the topic of a future post but suffice to say I really believe in their mission.&lt;/p&gt;
+
+&lt;p&gt;I think releasing personal projects in the 🌎 serves a different but complementary purpose. The best way to learn is by doing (something that figures very heavily into Lambda School), and the best way to get better is to let others see what you’ve done. That’s the whole premise of &lt;a href=&quot;https://www.indiehackers.com/&quot;&gt;Indie Hackers&lt;/a&gt;. With tools like &lt;a href=&quot;https://glitch.com/&quot;&gt;Glitch&lt;/a&gt; it’s easier than ever to prototype an idea or remix someone else’s. I feel like I’m 5-10 years later to this party but, like with my &lt;a href=&quot;https://ofnote.substack.com&quot;&gt;newsletter&lt;/a&gt;, the best time to start is today.&lt;/p&gt;
+
+&lt;p&gt;I’m optimistic about where I’ll be a year from now and looking forward to the journey. Onward.&lt;/p&gt;</content><author><name>cpdis</name></author><category term="blog" /><category term="yearofML" /><category term="personal" /><category term="Lambda" /><summary type="html">It has become readily apparent to anyone following this blog that my year of machine learning experiments has been an unquestioned success.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.cpdis.com/assets/images/" /></entry><entry><title type="html">Breaking a CAPTCHA in 15 Minutes</title><link href="https://www.cpdis.com/Breaking-a-CAPTCHA-in-15-Minutes/" rel="alternate" type="text/html" title="Breaking a CAPTCHA in 15 Minutes" /><published>2018-02-16T10:17:50-06:00</published><updated>2018-02-16T10:17:50-06:00</updated><id>https://www.cpdis.com/Breaking-a-CAPTCHA-in-15-Minutes</id><content type="html" xml:base="https://www.cpdis.com/Breaking-a-CAPTCHA-in-15-Minutes/">&lt;h1 id=&quot;breaking-a-captcha-in-15-minutes&quot;&gt;Breaking a CAPTCHA in 15 Minutes&lt;/h1&gt;
 
 &lt;p&gt;So, this took me a lot longer to get to than I was planning on 🤦🏼‍♂️ Despite my best intentions and greatest ambitions, life continues to happen and usually take priority over projects I’m doing on the side. The irony is that this project is relatively simple, both &lt;a href=&quot;https://twitter.com/ageitgey&quot;&gt;Adam Geitgey’s&lt;/a&gt; original project/code and my implementation of it.&lt;/p&gt;
 

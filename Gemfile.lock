@@ -252,6 +252,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   html-proofer
+  jekyll (~> 3.6.2)
   jekyll-admin
 
 BUNDLED WITH

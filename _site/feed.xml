@@ -1,4 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://www.cpdis.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.cpdis.com/" rel="alternate" type="text/html" /><updated>2018-07-23T14:55:40-05:00</updated><id>https://www.cpdis.com/</id><title type="html">Colin Dismuke</title><subtitle>A blog about side projects, programming, and more.</subtitle><entry><title type="html">password.coffee ☕️</title><link href="https://www.cpdis.com/password_coffee_project/" rel="alternate" type="text/html" title="password.coffee ☕️" /><published>2018-07-23T14:44:32-05:00</published><updated>2018-07-23T14:44:32-05:00</updated><id>https://www.cpdis.com/password_coffee_project</id><content type="html" xml:base="https://www.cpdis.com/password_coffee_project/">&lt;p&gt;&lt;img src=&quot;/assets/images/23-07-18/password_coffee.jpeg&quot; alt=&quot;password.coffee&quot; title=&quot;password.coffee website screenshot&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://www.cpdis.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.cpdis.com/" rel="alternate" type="text/html" /><updated>2018-09-25T14:40:04-05:00</updated><id>https://www.cpdis.com/</id><title type="html">Colin Dismuke</title><subtitle>A blog about side projects, programming, and more.</subtitle><entry><title type="html">Lambda School 🎒</title><link href="https://www.cpdis.com/lambda-school-projects/" rel="alternate" type="text/html" title="Lambda School 🎒" /><published>2018-07-23T15:40:34-05:00</published><updated>2018-07-23T15:40:34-05:00</updated><id>https://www.cpdis.com/lambda-school-projects</id><content type="html" xml:base="https://www.cpdis.com/lambda-school-projects/">&lt;p&gt;Below you’ll find a growing list of projects that I’ve worked on and completed at Lambda School. All of the code for everything I’ve been doing for Lambda School can be found on &lt;a href=&quot;https://github.com/cpdis?tab=repositories&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;user-interface-i&quot;&gt;User Interface I&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/23-07-18/user-interface-i.png&quot; alt=&quot;Great Idea! Website&quot; title=&quot;Great Idea! Website screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The first week of Lambda School explored the fundamentals of HTML and CSS. This project incorporated:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;semantic HTML tags&lt;/li&gt;
+  &lt;li&gt;CSS selectors&lt;/li&gt;
+  &lt;li&gt;CSS specificity and inheritance&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The concepts this week weren’t novel to me but I’ve never been tasked with creating a pixel perfect rendition of a website from a mockup. The project was challenging but I really enjoyed the process.&lt;/p&gt;
+
+&lt;p&gt;The site is hosted on Netlify &lt;a href=&quot;https://user-interface-i.netlify.com/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;portfolio-website&quot;&gt;Portfolio Website&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/25-09-18/colin-portfolio.png&quot; alt=&quot;Portfolio&quot; title=&quot;Portfolio website screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For this project I created a portfolio website from scratch. This was the first website that we started with a blank slate and wrote every line of HTML and CSS. I really enjoyed the mix of design and code involved in implementing the idea that was in my mind.&lt;/p&gt;
+
+&lt;p&gt;There weren’t too many new concepts introduced with this assignment but a preprocessor (LESS) was used so I tried to make liberal use of variables and mixins.&lt;/p&gt;
+
+&lt;p&gt;The site is hosted on Netlify &lt;a href=&quot;https://colin-portfolio.netlify.com/&quot;&gt;here&lt;/a&gt; and the code is on &lt;a href=&quot;https://github.com/cpdis/Preprocessing-I&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;digital-timer&quot;&gt;Digital Timer&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/25-09-18/timer.png&quot; alt=&quot;Digital Timer&quot; title=&quot;Colorful digital timer screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Created a functional digital timer using DOM manipulation. Topics for this stretch assignment were:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Interacting with the DOM&lt;/li&gt;
+  &lt;li&gt;Selectors&lt;/li&gt;
+  &lt;li&gt;selectElementsByClassname&lt;/li&gt;
+  &lt;li&gt;selectElementbyId&lt;/li&gt;
+  &lt;li&gt;querySelector&lt;/li&gt;
+  &lt;li&gt;querySelectorAll&lt;/li&gt;
+  &lt;li&gt;NodeList&lt;/li&gt;
+  &lt;li&gt;HTMLCollection&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This was a stretch assignment (to be completed after finishing the actual assignment). It was also the first thing we built that could be manipulated in the browser.&lt;/p&gt;
+
+&lt;p&gt;The site is hosted on Netlify &lt;a href=&quot;https://colin-dom.netlify.com/stretch-assignment/digital_timer/index.html&quot;&gt;here&lt;/a&gt; and the code is on &lt;a href=&quot;https://github.com/cpdis/DOM-I/tree/master/stretch-assignment&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;newspaper-website&quot;&gt;Newspaper Website&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/25-09-18/lambda-times.png&quot; alt=&quot;Lambda Times Newspaper&quot; title=&quot;Lambda Times newspaper screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This was a sprint challenge completed over a three hour period. The main objective of this project was to implement a component that made it possible to filter a certain articles based on a &lt;code class=&quot;highlighter-rouge&quot;&gt;data&lt;/code&gt; tag. Based on our experience the week before, we could have certainly implemented the article cards as well. Given the time sensitive nature of the sprint, though, we just focused on the tabs. In addition, I built a carousel component from scratch to cycle through several images.&lt;/p&gt;
+
+&lt;p&gt;The previous week we learned how to use Javascript to make our HTML/CSS static pages dynamic. We learned about the DOM and how to modify HTML elements dynamically. We also learned about events and how to listen for, and act on them. And finally, we learned about component architecture and how to build components that share functionality and styling with many elements.&lt;/p&gt;
+
+&lt;p&gt;The site is hosted on Netlify &lt;a href=&quot;https://applied-javascript.netlify.com/&quot;&gt;here&lt;/a&gt; and the code is on &lt;a href=&quot;https://github.com/cpdis/Sprint-Challenge-Applied-Javascript&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;user-interface-project&quot;&gt;User Interface Project&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/25-09-18/sj-architects.png&quot; alt=&quot;S&amp;amp;J Architects&quot; title=&quot;S&amp;amp;J Architects home page screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For this project we were given a full week to act as a front end developer at a web development agency and develop a marketing website based on a style guide and a few mock ups.&lt;/p&gt;
+
+&lt;p&gt;In addition to testing the HTML, CSS/LESS, and JavaScript skills I developed over the previous eight weeks, time management and working with a project manager were key in completing everything on time.&lt;/p&gt;
+
+&lt;p&gt;I completed the MVP early and built out several extra pages for the website, reused several JavaScript components across the new pages, and experimented a little with Vue.js by implementing a Markdown converter in a form field.&lt;/p&gt;
+
+&lt;p&gt;Like the portfolio website above, it was very rewarding to start with a blank document, build a HTML scaffold, realize the design with LESS, and then add functionality with JavaScript.&lt;/p&gt;
+
+&lt;p&gt;The site is hosted on Netlify &lt;a href=&quot;https://sjarchitects.live/&quot;&gt;here&lt;/a&gt; and the code is on &lt;a href=&quot;https://github.com/cpdis/User-Interface-Project-Week&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;</content><author><name>cpdis</name></author><category term="project" /><category term="Lambda School" /><category term="HTML/CSS" /><summary type="html">Below you’ll find a growing list of projects that I’ve worked on and completed at Lambda School. All of the code for everything I’ve been doing for Lambda School can be found on Github. User Interface I The first week of Lambda School explored the fundamentals of HTML and CSS. This project incorporated: semantic HTML tags CSS selectors CSS specificity and inheritance The concepts this week weren’t novel to me but I’ve never been tasked with creating a pixel perfect rendition of a website from a mockup. The project was challenging but I really enjoyed the process. The site is hosted on Netlify here. Portfolio Website For this project I created a portfolio website from scratch. This was the first website that we started with a blank slate and wrote every line of HTML and CSS. I really enjoyed the mix of design and code involved in implementing the idea that was in my mind. There weren’t too many new concepts introduced with this assignment but a preprocessor (LESS) was used so I tried to make liberal use of variables and mixins. The site is hosted on Netlify here and the code is on Github. Digital Timer Created a functional digital timer using DOM manipulation. Topics for this stretch assignment were: Interacting with the DOM Selectors selectElementsByClassname selectElementbyId querySelector querySelectorAll NodeList HTMLCollection This was a stretch assignment (to be completed after finishing the actual assignment). It was also the first thing we built that could be manipulated in the browser. The site is hosted on Netlify here and the code is on Github. Newspaper Website This was a sprint challenge completed over a three hour period. The main objective of this project was to implement a component that made it possible to filter a certain articles based on a data tag. Based on our experience the week before, we could have certainly implemented the article cards as well. Given the time sensitive nature of the sprint, though, we just focused on the tabs. In addition, I built a carousel component from scratch to cycle through several images. The previous week we learned how to use Javascript to make our HTML/CSS static pages dynamic. We learned about the DOM and how to modify HTML elements dynamically. We also learned about events and how to listen for, and act on them. And finally, we learned about component architecture and how to build components that share functionality and styling with many elements. The site is hosted on Netlify here and the code is on Github. User Interface Project For this project we were given a full week to act as a front end developer at a web development agency and develop a marketing website based on a style guide and a few mock ups. In addition to testing the HTML, CSS/LESS, and JavaScript skills I developed over the previous eight weeks, time management and working with a project manager were key in completing everything on time. I completed the MVP early and built out several extra pages for the website, reused several JavaScript components across the new pages, and experimented a little with Vue.js by implementing a Markdown converter in a form field. Like the portfolio website above, it was very rewarding to start with a blank document, build a HTML scaffold, realize the design with LESS, and then add functionality with JavaScript. The site is hosted on Netlify here and the code is on Github.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.cpdis.com/assets/images/23-07-18/lambda-school.png" /></entry><entry><title type="html">Texas Laws Twitter Bot 👾</title><link href="https://www.cpdis.com/texas_laws_bot/" rel="alternate" type="text/html" title="Texas Laws Twitter Bot 👾" /><published>2018-07-23T15:19:59-05:00</published><updated>2018-07-23T15:19:59-05:00</updated><id>https://www.cpdis.com/texas_laws_bot</id><content type="html" xml:base="https://www.cpdis.com/texas_laws_bot/">&lt;p&gt;&lt;img src=&quot;/assets/images/23-07-18/laws_texas.jpeg&quot; alt=&quot;Texas Laws&quot; title=&quot;Laws_Texas Twitter account&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I created a bot, &lt;a href=&quot;https://mobile.twitter.com/laws_texas&quot;&gt;@law_texas&lt;/a&gt;, that tweets out Texas legislation that’s currently being considered every 30 minutes or so. Heavily inspired by &lt;a href=&quot;https://mobile.twitter.com/oxangiemarie&quot;&gt;@oxangiemarie&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;How this bot was built:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://glitch.com/&quot;&gt;Glitch&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.twitter.com/content/developer-twitter/en.html&quot;&gt;Twitter API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://openstates.org/&quot;&gt;OpenStates&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://uptimerobot.com/&quot;&gt;Uptime Robot&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Links:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mobile.twitter.com/laws_texas&quot;&gt;Laws_Texas Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://glitch.com/~tx-laws&quot;&gt;Glitch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>cpdis</name></author><category term="project" /><category term="Glitch" /><category term="Twitter API" /><category term="OpenStates" /><category term="Uptime Robot" /><summary type="html">I created a bot, @law_texas, that tweets out Texas legislation that’s currently being considered every 30 minutes or so. Heavily inspired by @oxangiemarie. How this bot was built: Glitch Twitter API OpenStates Uptime Robot Links: Laws_Texas Twitter Glitch</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.cpdis.com/assets/images/" /></entry><entry><title type="html">password.coffee ☕️</title><link href="https://www.cpdis.com/password_coffee_project/" rel="alternate" type="text/html" title="password.coffee ☕️" /><published>2018-07-23T14:44:32-05:00</published><updated>2018-07-23T14:44:32-05:00</updated><id>https://www.cpdis.com/password_coffee_project</id><content type="html" xml:base="https://www.cpdis.com/password_coffee_project/">&lt;p&gt;&lt;img src=&quot;/assets/images/23-07-18/password_coffee.jpeg&quot; alt=&quot;password.coffee&quot; title=&quot;password.coffee website screenshot&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://password.coffee/&quot;&gt;password.coffee&lt;/a&gt; is a single-page website that serves as a repository of WiFi details for coffee shops and other cafes.&lt;/p&gt;
 
@@ -584,44 +684,4 @@ $ floyd clone experiments/
 
 &lt;p&gt;I think that the template based approach is great. I have already modified the directory structure and some make files that I don’t see myself using initially. As the weeks pass and I refine my workflow, I’m sure that I will be modifying or creating new cookiecutters (you can have multiple templates that are called from the command line).&lt;/p&gt;
 
-&lt;p&gt;I’m looking forward to my research workflow being refined over time and becoming more robust and efficient—hopefully the process described above is a good starting point.&lt;/p&gt;</content><author><name>cpdis</name></author><category term="blog" /><category term="workflow" /><category term="yearofml" /><summary type="html">There are two categories of projects that I’ve collected: ML papers and tutorials/working examples. For both of these I want a consistent workflow that allows me to present summaries in an quick and efficient manner and to reference in the future.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.cpdis.com/assets/images/" /></entry><entry><title type="html">A Year of Machine Learning, Neural Networks, and more</title><link href="https://www.cpdis.com/Year-of-Learning/" rel="alternate" type="text/html" title="A Year of Machine Learning, Neural Networks, and more" /><published>2018-01-01T14:38:50-06:00</published><updated>2018-01-01T14:38:50-06:00</updated><id>https://www.cpdis.com/Year-of-Learning</id><content type="html" xml:base="https://www.cpdis.com/Year-of-Learning/">&lt;p&gt;My goal this year, and with this project, is to read, replicate, and expand upon as many different papers, tutorials, and Github repositories as possible. Each week I plan on going through all the &lt;a href=&quot;https://github.com/cpdis/Experiments&quot;&gt;links&lt;/a&gt; and tabs I’ve collected over the months and posting whatever the results are here. In addition, I want to improve my writing skills and the only way to do that is by practice and repetition. Please forgive my writing the first few months, it will, it has to, get better.&lt;/p&gt;
-
-&lt;p&gt;It’s relatively easy (🤓) to take online &lt;a href=&quot;https://www.udacity.com/course/intro-to-machine-learning--ud120&quot;&gt;classes&lt;/a&gt;, &lt;a href=&quot;https://www.coursera.org/specializations/deep-learning&quot;&gt;courses&lt;/a&gt;, and &lt;a href=&quot;https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013&quot;&gt;nanodegrees&lt;/a&gt; but getting your hands dirty and working through problems on your own is where real learning begins. I’m very aware that I’m probably not going to be leading authority in the field of artificial intelligence (or even someone worth a &lt;a href=&quot;https://www.nytimes.com/2017/10/22/technology/artificial-intelligence-experts-salaries.html&quot;&gt;seven figure&lt;/a&gt; salary), that was a decision I should have made fifteen years ago. However, becoming proficient/efficient at implementing models and being up-to-date with the latest research is a huge step in the right direction.&lt;/p&gt;
-
-&lt;p&gt;In this first week of January I’m going to try to nail down the workflow that I use to actually complete this project and to document what I learn. I have a local folder ready for any code or papers that need to be stored locally and a &lt;a href=&quot;http://www.amazon.com/dp/B075N1Z9LT/?tag=heismukamily-20&quot;&gt;NAS&lt;/a&gt; to store large datasets. Everything will be on Github for version control and to show/share my work (and so I can get more practice using Git). I’m going to be using my 2014 13” MacBook Pro for most of this project so there definitely won’t be any training time records set. In my &lt;a href=&quot;https://github.com/cpdis/P3_CarND_Behavioral_Cloning&quot;&gt;experience&lt;/a&gt;, though, simple models run quickly and long training times may incentive me to &lt;a href=&quot;https://navoshta.com/meet-fenton/&quot;&gt;upgrade my machine&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The pace at which deep learning and artificial intelligence advances are being made (no matter how specialized) is truly astounding. I, for one, welcome our new 🤖 overlords.&lt;/p&gt;</content><author><name>cpdis</name></author><category term="blog" /><category term="machine learning" /><category term="deep learning" /><category term="artificial intelligence" /><category term="learning" /><summary type="html">My goal this year, and with this project, is to read, replicate, and expand upon as many different papers, tutorials, and Github repositories as possible. Each week I plan on going through all the links and tabs I’ve collected over the months and posting whatever the results are here. In addition, I want to improve my writing skills and the only way to do that is by practice and repetition. Please forgive my writing the first few months, it will, it has to, get better.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.cpdis.com/assets/images/" /></entry><entry><title type="html">The Parable of the iPhone</title><link href="https://www.cpdis.com/The-Parable-of-the-iPhone/" rel="alternate" type="text/html" title="The Parable of the iPhone" /><published>2017-12-31T14:55:01-06:00</published><updated>2017-12-31T14:55:01-06:00</updated><id>https://www.cpdis.com/The-Parable-of-the-iPhone</id><content type="html" xml:base="https://www.cpdis.com/The-Parable-of-the-iPhone/">&lt;p&gt;A 15 year old girl was picking berries from a bush one day in ancient Rome. And so it happened right before her eyes that a strange and mysterious wormhole opened up and presented an iPhone 7 Plus. She gasped in shock at the incomprehensible sight that had materialized out of thin air right before her eyes.&lt;/p&gt;
-
-&lt;p&gt;Was it a precious metal of some kind? Perhaps a gem or a stone. It didn’t look like anything she had ever seen before. Could it be an exotic plant of some kind? A strange animal? Perhaps an extremely advanced tool. She reached her hand out to touch it. But then thought better of it. She better get her sister to take a look at it as well.&lt;/p&gt;
-
-&lt;p&gt;She called out. Her sister was nearby and immediately ran over.&lt;/p&gt;
-
-&lt;p&gt;“Look at this!”, she said.&lt;/p&gt;
-
-&lt;p&gt;Her sister’s face looked bewildered, “What is it?”&lt;/p&gt;
-
-&lt;p&gt;“I don’t know, it just appeared.”&lt;/p&gt;
-
-&lt;p&gt;The sister picked up the phone. She marveled at its simplicity with affection. The vibrant silver color and precise lines of its edges. The small foreign writing on the metallic back with an image engraved in the finest handiwork of an apple that had a bite taken out.&lt;/p&gt;
-
-&lt;p&gt;“This is magnificent” she said as she touched a part of the object that had a small contusion in the otherwise perfectly smooth surface. When she touched it, a brilliant light shone from the face of the object, like magic.&lt;/p&gt;
-
-&lt;p&gt;The girls were awestruck. They thought they had better show this to their mother.&lt;/p&gt;
-
-&lt;p&gt;A few hours later, the iPhone 7 Plus was in the hands of a Roman centurion who was taking a slow-mo video of his own face when the object disappeared as suddenly as it had arrived.&lt;/p&gt;
-
-&lt;p&gt;A similar thing happened in two other places at two other times. The wormhole had opened. The iPhone had appeared. Once in South America to a young man in a hunter gatherer society and once to a middle aged woman in Manila in 1968. The result of these three temporary appearances of the iPhone 7 Plus shook the cultures that the iPhone had presented itself to to the core. Each had named the events and the object in different ways.&lt;/p&gt;
-
-&lt;p&gt;The Romans had interpreted the event as an act of Caesar to display his power. The phone ended up being named the Delustricus. They started a holiday to celebrate the gracious revelation their Lord had bestowed upon them.&lt;/p&gt;
-
-&lt;p&gt;The South American hunter gatherers had named the object what can be translated roughly as Sun Jewel, they ended up worshipping the Sun Jewel as their prime deity. Sacrifice by fire was the deity’s choice of preferred worship.&lt;/p&gt;
-
-&lt;p&gt;The Filipino’s that had encountered the phone had eventually come to the conclusion that the device was an alien machine of infinite power that they called the Nuckacot. It happened to appear on a Tuesday precisely while the woman who had discovered it was overcooking a pot of rice. The culture had developed a custom of overcooking rice on Tuesdays in order to appease the aliens and pray for the return of the mysterious and beautiful Nuckacot.&lt;/p&gt;
-
-&lt;p&gt;You see, this is what human beings do when we don’t have words for something, we make up words for them. Even if the thing we are trying to talk about is not a thing, is beyond thingness, but an experience that transcends all of our language and conceptions. We still try to find words, we still try to make meaning and tell stories. And so we get religion with all of its different variations and forms and practices.&lt;/p&gt;
-
-&lt;p&gt;Are all religions the same? No, of course not.&lt;/p&gt;
-
-&lt;p&gt;Neither are all the explanations of the iPhone. They are actually quite different.&lt;/p&gt;
-
-&lt;p&gt;But is the iPhone the same? Of course it is.&lt;/p&gt;</content><author><name>cpdis</name></author><category term="blog" /><category term="apple" /><category term="technology" /><category term="iphone" /><category term="religion" /><summary type="html">A 15 year old girl was picking berries from a bush one day in ancient Rome. And so it happened right before her eyes that a strange and mysterious wormhole opened up and presented an iPhone 7 Plus. She gasped in shock at the incomprehensible sight that had materialized out of thin air right before her eyes.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.cpdis.com/assets/images/" /></entry></feed>
+&lt;p&gt;I’m looking forward to my research workflow being refined over time and becoming more robust and efficient—hopefully the process described above is a good starting point.&lt;/p&gt;</content><author><name>cpdis</name></author><category term="blog" /><category term="workflow" /><category term="yearofml" /><summary type="html">There are two categories of projects that I’ve collected: ML papers and tutorials/working examples. For both of these I want a consistent workflow that allows me to present summaries in an quick and efficient manner and to reference in the future.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.cpdis.com/assets/images/" /></entry></feed>
